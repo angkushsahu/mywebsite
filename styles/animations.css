@@ -1,0 +1,121 @@
+.container_one {
+    animation: bring_container_one 1.4s ease forwards;
+}
+
+@keyframes bring_container_one {
+    to { transform: translateX(0); }
+}
+
+.name {
+    position: relative;
+    z-index: -1;
+}
+
+.name::before {
+    animation: bring_name 2s steps(20) forwards;
+    animation-delay: 1.5s;
+    z-index: 0;
+    content: '';
+    position: absolute;
+    top: 0%; left: 0%; bottom: 0%; right: 0%;
+    background-color: #20242A;
+}
+
+.name::after {
+    animation: bring_name 2s steps(20) forwards;
+    animation-delay: 1.5s;
+    width: 0.125rem;
+    z-index: 0;
+    content: '';
+    position: absolute;
+    top: 0%; left: 0%; bottom: 0%; right: 0%;
+    background-color: #ff4500;
+}
+
+@keyframes bring_name {
+    to { left: 100%; }
+}
+
+.intro {
+    transform: translateY(30px);
+    opacity: 0;
+    animation: bring_intro 1s ease forwards;
+    animation-delay: 3.5s;
+}
+
+@keyframes bring_intro {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.navigation {
+    animation: bring_navigation 1s ease forwards;
+    animation-delay: 4.5s;
+    opacity: 0;
+    transform: translateX(85px);
+}
+
+@keyframes bring_navigation {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.code_image {
+    animation: bounce 0.8s forwards;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 0.3, .03);
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    transform: translate3d(0, -500px, 0);
+}
+
+@keyframes bounce {
+    0% { transform: translate3d(0, -500px, 0); }
+    33% { transform: translate3d(0, 0, 0); }
+    66% { transform: translate3d(0, -100px, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+
+.container_two {
+    animation: bring_container_two 1.4s ease forwards;
+    animation-delay: 6s;
+}
+
+@keyframes bring_container_two {
+    to { transform: translateX(0); }
+}
+
+.card {
+    transform: translateX(100vw);
+    animation: bring_card 1s ease forwards;
+    animation-delay: 7.2s;
+}
+
+@keyframes bring_card {
+    to { transform: translateX(0); }
+}
+
+.floating_icons {
+    transform: translate(-50%, -60px);
+    animation: bring_icons 1s ease forwards;
+    animation-delay: 8.2s;
+}
+
+@keyframes bring_icons {
+    to { transform: translate(-50%, 0); }
+}
+
+.to_top_button {
+    right: 0;
+    opacity: 0;
+    animation: bring_to_top_button 1s ease forwards;
+    animation-delay: 9s;
+}
+
+@keyframes bring_to_top_button {
+    to { right: 20px; opacity: 1; }
+}
