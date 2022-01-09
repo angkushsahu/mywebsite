@@ -1,5 +1,6 @@
 .name::before {
     animation: name_animation 2000ms steps(18) forwards;
+    animation-delay: 2000ms;
 }
 
 @keyframes name_animation {
@@ -10,7 +11,7 @@
 
 .my_picture {
     animation: picture_animation 2s ease forwards;
-    animation-delay: 2000ms;
+    animation-delay: 4000ms;
 }
 
 @keyframes picture_animation {
@@ -22,7 +23,7 @@
 
 .show_off {
     animation: show_off_animation 500ms ease forwards;
-    animation-delay: 4000ms;
+    animation-delay: 6000ms;
 }
 
 @keyframes show_off_animation {
@@ -34,7 +35,7 @@
     
 .prime_skills {
     animation: prime_skills_animation 500ms ease forwards;
-    animation-delay: 4000ms;
+    animation-delay: 6000ms;
 }
 
 @keyframes prime_skills_animation {
@@ -45,7 +46,7 @@
 
 .open_for_work, .intro_button {
     animation: bring_up_animation 750ms ease forwards;
-    animation-delay: 4500ms;
+    animation-delay: 6500ms;
 }
 
 @keyframes bring_up_animation {
@@ -57,7 +58,7 @@
 
 .header {
     animation: header_animation 1000ms ease forwards;
-    animation-delay: 4900ms;
+    animation-delay: 6900ms;
 }
 
 @keyframes header_animation {
