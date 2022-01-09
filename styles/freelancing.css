@@ -1,0 +1,9 @@
+.freelancing {
+    padding: 60px 0;
+}
+
+.freelancing_line_one, .freelancing_line_two {
+    padding: 10px 10px;
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    text-align: center;
+}

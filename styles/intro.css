@@ -1,0 +1,75 @@
+.intro_container {
+    padding: 35px 0;
+}
+
+.my_picture {
+    filter: invert(1);
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    width: 150px;
+    transform: translateX(-500px);
+}
+
+.name_container {
+    font-size: clamp(1.2rem, 6vw, 1.6rem);
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.name { position: relative; }
+
+.name::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0%;
+    border-left: 2px solid #ff4500;
+    background-color: #202020;
+    z-index: 1;
+}
+
+.show_off {
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    text-align: center;
+    font-weight: 700;
+    padding: 20px clamp(20px, 15vw, 170px);
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.prime_skills, .open_for_work {
+    color: #7a7a7a;
+    text-align: center;
+    margin: 20px clamp(20px, 15vw, 170px);
+    font-size: 1.1rem;
+}
+
+.prime_skills { opacity: 0; }
+
+.open_for_work {
+    font-size: clamp(1.2rem, 6vw, 1.6rem);
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.intro_button {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.button_for_connection {
+    cursor: pointer;
+    margin: 30px auto;
+    display: block;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.button_for_connection:disabled {
+    cursor: default;
+}

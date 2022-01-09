@@ -1,0 +1,13 @@
+.image_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.code_images {
+    width: clamp(180px, 26vw, 400px);
+    height: clamp(180px, 26vw, 400px);
+    object-fit: cover;
+}

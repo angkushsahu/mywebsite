@@ -1,0 +1,41 @@
+#contact_div {
+    background-color: #000;
+    position: fixed;
+    width: 50%; left: 25%;
+    height: 80vh; top: 10vh;
+    z-index: 3;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.close_button {
+    cursor: pointer;
+    filter: invert(1);
+    width: clamp(30px, 4vw, 40px);
+}
+
+.contact_div_container {
+    width: 80%;
+    height: 70%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_div_container div {
+    display: grid;
+    place-content: center;
+}
+
+.contact_div_icons {
+    filter: invert(1);
+    width: clamp(60px, 10vw, 130px);
+}
+
+.contact_link_text {
+    text-align: center;
+    text-decoration: none;
+}

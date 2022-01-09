@@ -4,115 +4,279 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="styles/style.css" />
-		<link rel="stylesheet" href="styles/animations.css" />
-		<link rel="stylesheet" href="styles/first_container.css" />
-		<link rel="stylesheet" href="styles/second_container.css" />
+		<link rel="stylesheet" href="styles/contact.css" />
+		<link rel="stylesheet" href="styles/header.css" />
+		<link rel="stylesheet" href="styles/intro.css" />
+		<link rel="stylesheet" href="styles/images.css" />
+		<link rel="stylesheet" href="styles/psandd.css" />
+		<link rel="stylesheet" href="styles/education_and_skills.css" />
+		<link rel="stylesheet" href="styles/freelancing.css" />
+		<link rel="stylesheet" href="styles/footer.css" />
+		<link rel="stylesheet" href="styles/animation.css" />
 		<link rel="stylesheet" href="styles/media.css" />
 		<title>Angkush Sahu</title>
 	</head>
 	<body>
-		<div id="root">
-			<div class="floating_icons">
-				<a href="https://www.instagram.com/angkush_sahu" target="_blank">
-					<img src="images/instagram.svg" class="floating_images" alt="instagram-pic" />
-				</a>
-				<a href="https://www.github.com/angkushsahu" target="_blank">
-					<img src="images/github.svg" class="floating_images" alt="github-pic" />
-				</a>
-				<a href="https://www.linkedin.com/in/angkush-sahu-0409311bb" target="_blank">
-					<img src="images/linkedin.svg" class="floating_images" alt="linked-in-pic" />
-				</a>
-				<a href="mailto:angkushsahu2502@gmail.com" target="_blank">
-					<img src="images/envelope-fill.svg" class="floating_images" alt="mail-pic" />
-				</a>
-			</div>
-			<div class="container_one">
-				<img src="images/./code.jpg" alt="Image of a binary page" class="code_image" />
-				<div class="intro_box">
-					<div class="name">This is Angkush Sahu ...</div>
-					<div class="intro">A full stack developer and a programmer</div>
+		<div id="contact_div">
+			<img src="images/close.svg" alt="close_button-pic" class="close_button" />
+			<div class="contact_div_container">
+				<div>
+					<a href="mailto:angkysahu2502@gmail.com" target="_blank">
+						<img
+							src="images/envelope-fill.svg"
+							alt="mail-pic"
+							class="contact_div_icons"
+						/>
+					</a>
+					<a
+						href="mailto:angkysahu2502@gmail.com"
+						target="_blank"
+						class="contact_link_text"
+						>Mail</a
+					>
 				</div>
-				<nav class="navigation">
-					<ul class="list">
-						<li class="nav_links scroll_to_top active">Back to top</li>
-						<li class="nav_links scroll_to_about">About</li>
-						<li class="nav_links scroll_to_skills">Skills</li>
-						<li class="nav_links scroll_to_contact">Contact</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="container_two">
-				<div class="card_container">
-					<div class="card">
-						<div class="card_description">
-							<span class="colored">Hey there, this is Angkush Sahu.</span> A MERN
-							stack developer and a programmer. I am an engineering aspirant from
-							Assam, India. I like to learn new technologies and make something useful
-							out of them. This is my portfolio website which I have made using basic
-							css animations and javascript. Hope you enjoy it.
-						</div>
-					</div>
+				<div>
+					<a
+						href="https://www.linkedin.com/in/angkush-sahu-0409311bb"
+						target="_blank"
+					>
+						<img
+							src="images/linkedin.svg"
+							alt="linked-in-pic"
+							class="contact_div_icons"
+						/>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/angkush-sahu-0409311bb"
+						target="_blank"
+						class="contact_link_text"
+						>Linked-in</a
+					>
 				</div>
-				<div class="card_container">
-					<div class="card">
-						<div class="card_title">I am skilled in:</div>
-						<div class="card_description">
-							<li class="skills_list_one">C</li>
-							<li class="skills_list_one">C ++</li>
-							<li class="skills_list_one">Java</li>
-							<li class="skills_list_one">Javascript</li>
-							<li class="skills_list_one">HTML 5</li>
-							<li class="skills_list_one">CSS</li>
-							<li class="skills_list_one">Node.js</li>
-							<li class="skills_list_one">React.js</li>
-							<li class="skills_list_one">MongoDB</li>
-						</div>
-					</div>
+				<div>
+					<a href="https://github.com/angkushsahu" target="_blank">
+						<img
+							src="images/github.svg"
+							alt="github-pic"
+							class="contact_div_icons"
+						/>
+					</a>
+					<a
+						href="https://github.com/angkushsahu"
+						target="_blank"
+						class="contact_link_text"
+						>Github</a
+					>
 				</div>
-				<div class="card_container">
-					<div class="card">
-						<div class="card_title text_center">Contact me via</div>
-						<div class="contact_image_container">
-							<div class="contact_image_with_div">
-								<a href="mailto:angkushsahu2502@gmail.com" class="links" target="_blank">
-									<img src="images/envelope-fill.svg" class="contact_images" alt="mail-pic" />
-								</a>
-								<a href="mailto:angkushsahu2502@gmail.com" class="links" target="_blank">
-                                    <div class="image_description">Mail</div>
-                                </a>
-							</div>
-							<div class="contact_image_with_div">
-								<a href="https://www.linkedin.com/in/angkush-sahu-0409311bb" class="links" target="_blank">
-									<img src="images/linkedin.svg" class="contact_images" alt="linked-in-pic" />
-								</a>
-								<a href="https://www.linkedin.com/in/angkush-sahu-0409311bb" class="links" target="_blank">
-                                    <div class="image_description">Linked-in</div>
-                                </a>
-							</div>
-							<div class="contact_image_with_div">
-								<a href="https://www.github.com/angkushsahu" class="links" target="_blank">
-									<img src="images/github.svg" class="contact_images" alt="github-pic" />
-								</a>
-								<a href="https://www.github.com/angkushsahu" class="links" target="_blank">
-                                    <div class="image_description">Github</div>
-                                </a>
-							</div>
-							<div class="contact_image_with_div">
-								<a href="https://www.instagram.com/angkush_sahu" class="links" target="_blank">
-									<img src="images/instagram.svg" class="contact_images" alt="instagram-pic" />
-								</a>
-								<a href="https://www.instagram.com/angkush_sahu" class="links" target="_blank">
-                                    <div class="image_description">Instagram</div>
-                                </a>
-							</div>
-						</div>
-					</div>
+				<div>
+					<a href="https://www.instagram.com/angkush_sahu" target="_blank">
+						<img
+							src="images/instagram.svg"
+							alt="instagram-pic"
+							class="contact_div_icons"
+						/>
+					</a>
+					<a
+						href="https://www.instagram.com/angkush_sahu"
+						target="_blank"
+						class="contact_link_text"
+						>Instagram</a
+					>
 				</div>
 			</div>
 		</div>
-		<img src="images/arrow-up-square-fill.svg" alt="back-to-top-pic" class="to_top_button" />
+
+		<div id="root">
+
+			<header class="header">
+				<div class="mail_container">
+					<a href="mailto:angkysahu2502@gmail.com" target="_blank" class="fixed_mail_icon">
+						<img src="images/envelope-fill.svg" alt="mail-pic" class="mail_icon" />
+					</a>
+					<a href="mailto:angkysahu2502@gmail.com" target="_blank" class="mail_link"
+						>angkysahu2502@gmail.com</a
+					>
+				</div>
+				<div class="icon_container">
+					<a href="mailto:angkysahu2502@gmail.com" target="_blank">
+						<img src="images/envelope-fill.svg" alt="mail-pic" class="icons" />
+					</a>
+					<a href="https://www.linkedin.com/in/angkush-sahu-0409311bb" target="_blank">
+						<img src="images/linkedin.svg" alt="linked-in-pic" class="icons" />
+					</a>
+					<a href="https://github.com/angkushsahu" target="_blank">
+						<img src="images/github.svg" alt="github-pic" class="icons" />
+					</a>
+					<a href="https://www.instagram.com/angkush_sahu" target="_blank">
+						<img src="images/instagram.svg" alt="instagram-pic" class="icons" />
+					</a>
+				</div>
+			</header>
+
+			<section class="intro_container">
+				<img src="images/person-circle.svg" alt="picture" class="my_picture" />
+
+				<div class="name_container">					
+					<span class="name">Hi, I'm Angkush...</span>
+				</div>
+				<div class="show_off">
+					I design and develop experiences that make people's lives simple
+				</div>
+				<div class="prime_skills">A MERN stack developer and a C++ programmer</div>
+				<div class="open_for_work">I'm open for freelance work</div>
+
+				<button class="button_for_connection intro_button">CONNECT WITH ME</button>
+			</section>
+
+			<section class="image_section">
+				<img src="images/code_one.jpg" alt="code_pic_2" class="code_images" data-aos="flip-left" />
+				<img src="images/code_two.jpg" alt="code_pic_3" class="code_images" data-aos="flip-up" />
+				<img src="images/code_three.jpg" alt="code_pic_1" class="code_images" data-aos="flip-right" />
+			</section>
+
+			<section class="problem_solving_and_designing">
+				<div class="problem_solving_and_designing_title">Approach</div>
+				<div class="card_type_one_container">
+					<div class="card_type_one" data-aos="fade-down">
+						<img
+							src="images/problem_solving.jpg"
+							alt="problem-solving-pic"
+							class="card_image"
+						/>
+						<div class="card_description">
+							Defining the problem, processing algorithms, finding the best solution,
+							giving a 100% for optimisation
+						</div>
+					</div>
+					<div class="card_type_one" data-aos="fade-up">
+						<img
+							src="images/web_design.jpg"
+							alt="web-designing-pic"
+							class="card_image"
+						/>
+						<div class="card_description">
+							Designing a rough sketch, bringing it to life, making it user friendly,
+							building a better user experience
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="education_and_skills">
+				<section class="education_section" data-aos="fade">
+					<div class="education_and_skills_section_title">Education</div>
+					<div class="card_type_two">
+						<div class="institute_section">
+							<div class="institute_name">Jorhat Engineering College</div>
+							<div class="institute_location">Assam, India</div>
+							<div class="institute_type_and_time">
+								Bachelor of Technology | 2020 - 2024
+							</div>
+						</div>
+						<div class="institute_section">
+							<div class="institute_name">Pragya Academy</div>
+							<div class="institute_location">Assam, India</div>
+							<div class="institute_type_and_time">
+								Senior Secondary | 2018 - 2020
+							</div>
+						</div>
+						<div class="institute_section">
+							<div class="institute_name">Spring Dale High School</div>
+							<div class="institute_location">Assam, India</div>
+							<div class="institute_type_and_time">
+								Primary & Secondary | 2006 - 2018
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="skills" data-aos="fade">
+					<div class="education_and_skills_section_title">Skills and Languages</div>
+					<div class="card_type_two">
+						<li>C</li>
+						<li>C ++</li>
+						<li>Java</li>
+						<li>Javascript</li>
+						<li>HTML 5</li>
+						<li>CSS 3</li>
+						<li>Node.js</li>
+						<li>React.js</li>
+						<li>MongoDB</li>
+					</div>
+				</section>
+			</section>
+
+			<section class="freelancing" data-aos="zoom-in">
+				<div class="freelancing_line_one">Let me know if you wish to collaborate</div>
+				<div class="freelancing_line_two">I'm available for freelance work</div>
+
+				<button class="button_for_connection">LET'S DESIGN YOUR WEBSITE</button>
+			</section>
+
+			<footer class="footer">
+				<div class="footer_title">You can contact me through</div>
+				<div class="footer_contacts">
+					<li>
+						<a href="mailto:angkysahu2502@gmail.com" target="_blank">
+							<img
+								src="images/envelope-fill.svg"
+								alt="mail-pic"
+								class="footer_contact_icons"
+							/>
+						</a>
+						<a href="mailto:angkysahu2502@gmail.com" target="_blank">Mail</a>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/angkush-sahu-0409311bb"
+							target="_blank"
+						>
+							<img
+								src="images/linkedin.svg"
+								alt="linked-in-pic"
+								class="footer_contact_icons"
+							/>
+						</a>
+						<a href="https://www.linkedin.com/in/angkush-sahu-0409311bb" target="_blank"
+							>Linked-in</a
+						>
+					</li>
+					<li>
+						<a href="https://github.com/angkushsahu" target="_blank">
+							<img
+								src="images/github.svg"
+								alt="github-pic"
+								class="footer_contact_icons"
+							/>
+						</a>
+						<a href="https://github.com/angkushsahu" target="_blank">Github</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/angkush_sahu" target="_blank">
+							<img
+								src="images/instagram.svg"
+								alt="instagram-pic"
+								class="footer_contact_icons"
+							/>
+						</a>
+						<a href="https://www.instagram.com/angkush_sahu" target="_blank"
+							>Instagram</a
+						>
+					</li>
+				</div>
+			</footer>
+		</div>
 	</body>
-    <script src="js/app.js"></script>
+
+	<script src="js/app.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init({
+		  duration: 1000,
+		  once: true
+	  });
+	</script>
+
 </html>
