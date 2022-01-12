@@ -25,11 +25,13 @@
     align-items: center;
 }
 
-.fixed_mail_icon { display: grid; }
+.fixed_mail_icon {
+    display: grid;
+    margin-right: 20px;
+}
 
 .mail_icon {
     width: clamp(30px, 7vw, 40px);
-    margin-right: 20px;
     filter: invert(1);
 }
 

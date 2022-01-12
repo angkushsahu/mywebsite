@@ -1,5 +1,6 @@
 .intro_container {
     padding: 35px 0;
+    min-height: 90vh;
 }
 
 .my_picture {
@@ -29,6 +30,8 @@
 }
 
 .show_off {
+    /* font-family: 'Moon Dance', cursive; */
+    font-family: cursive;
     font-size: clamp(1.4rem, 6vw, 2rem);
     text-align: center;
     font-weight: 700;
