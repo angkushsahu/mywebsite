@@ -30,3 +30,20 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.fade_up {
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: transform 500ms ease-in, opacity 500ms ease-in;
+}
+
+.fade_down {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 500ms ease-in, opacity 500ms ease-in;
+}
+
+.toggle_fade {
+    transform: translateY(0);
+    opacity: 1;
+}

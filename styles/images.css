@@ -11,3 +11,20 @@
     height: clamp(180px, 26vw, 400px);
     object-fit: cover;
 }
+
+.flip_left {
+    transform: rotateY(90deg);
+    transition: transform 800ms ease-in;
+}
+
+.flip_up {
+    transform: rotateX(90deg);
+    transition: transform 800ms ease-in;
+}
+
+.flip_right {
+    transform: rotateY(-90deg);
+    transition: transform 800ms ease-in;
+}
+
+.toggle_flip { transform: rotate(0); }

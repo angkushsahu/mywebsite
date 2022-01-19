@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="styles/style.css" />
 		<link rel="stylesheet" href="styles/contact.css" />
 		<link rel="stylesheet" href="styles/header.css" />
@@ -132,15 +131,15 @@
 			</section>
 
 			<section class="image_section">
-				<img src="images/code_one.jpg" alt="code_pic_2" class="code_images" data-aos="flip-left" />
-				<img src="images/code_two.jpg" alt="code_pic_3" class="code_images" data-aos="flip-up" />
-				<img src="images/code_three.jpg" alt="code_pic_1" class="code_images" data-aos="flip-right" />
+				<img src="images/code_one.jpg" alt="code_pic_2" class="code_images flip_left" />
+				<img src="images/code_two.jpg" alt="code_pic_3" class="code_images flip_up" />
+				<img src="images/code_three.jpg" alt="code_pic_1" class="code_images flip_right" />
 			</section>
 
 			<section class="problem_solving_and_designing">
 				<div class="problem_solving_and_designing_title">Approach</div>
 				<div class="card_type_one_container">
-					<div class="card_type_one" data-aos="fade-down">
+					<div class="card_type_one fade_down">
 						<img
 							src="images/problem_solving.jpg"
 							alt="problem-solving-pic"
@@ -151,7 +150,7 @@
 							giving a 100% for optimisation
 						</div>
 					</div>
-					<div class="card_type_one" data-aos="fade-up">
+					<div class="card_type_one fade_up">
 						<img
 							src="images/web_design.jpg"
 							alt="web-designing-pic"
@@ -166,7 +165,7 @@
 			</section>
 
 			<section class="education_and_skills">
-				<section class="education_section" data-aos="fade">
+				<section class="education_section">
 					<div class="education_and_skills_section_title">Education</div>
 					<div class="card_type_two">
 						<div class="institute_section">
@@ -192,7 +191,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="skills" data-aos="fade">
+				<section class="skills">
 					<div class="education_and_skills_section_title">Skills and Languages</div>
 					<div class="card_type_two">
 						<li>C</li>
@@ -208,7 +207,7 @@
 				</section>
 			</section>
 
-			<section class="freelancing" data-aos="zoom-in">
+			<section class="freelancing">
 				<div class="freelancing_line_one">Let me know if you wish to collaborate</div>
 				<div class="freelancing_line_two">I'm available for freelance work</div>
 
@@ -271,12 +270,6 @@
 	</body>
 
 	<script src="js/app.js"></script>
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-	  AOS.init({
-		  duration: 1000,
-		  once: true
-	  });
-	</script>
+	<script src="js/observer.js"></script>
 
 </html>
