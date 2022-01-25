@@ -7,9 +7,9 @@
 	filter: invert(1);
 	display: block;
 	margin: 0 auto;
-	opacity: 0;
 	width: 150px;
-	transform: translateX(-500px) scale(0.5);
+
+	opacity: 0;
 }
 
 .name_container {
@@ -35,13 +35,13 @@
 }
 
 .show_off {
-	/* font-family: 'Moon Dance', cursive; */
+	font-family: "Moon Dance", cursive;
 	font-family: cursive;
 	font-size: clamp(1.4rem, 6vw, 2rem);
 	text-align: center;
 	font-weight: 700;
 	padding: 20px clamp(20px, 15vw, 170px);
-	transform: translateX(-100px);
+
 	opacity: 0;
 }
 
@@ -51,21 +51,17 @@
 	text-align: center;
 	margin: 20px clamp(20px, 15vw, 170px);
 	font-size: 1.1rem;
-}
 
-.prime_skills {
 	opacity: 0;
 }
 
 .open_for_work {
 	font-size: clamp(1.2rem, 6vw, 1.6rem);
 	opacity: 0;
-	transform: translateY(100px);
 }
 
 .intro_button {
 	opacity: 0;
-	transform: translateY(100px);
 }
 
 .button_for_connection {

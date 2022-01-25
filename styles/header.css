@@ -1,47 +1,45 @@
 .header {
-    height: 10vh;
-    width: 100%;
-    background-color: transparent;
+	height: 10vh;
+	width: 100%;
+	background-color: transparent;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-    /* For animation effects */
-    transform: translateY(-10vh);
-    opacity: 0;
+	opacity: 0;
 }
 
 .icon_container {
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+	width: 30%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .mail_container {
-    margin-left: clamp(10px, 7vw, 50px);
-    display: flex;
-    align-items: center;
+	margin-left: clamp(10px, 7vw, 50px);
+	display: flex;
+	align-items: center;
 }
 
 .fixed_mail_icon {
-    display: grid;
-    margin-right: 20px;
+	display: grid;
+	margin-right: 20px;
 }
 
 .mail_icon {
-    width: clamp(30px, 7vw, 40px);
-    filter: invert(1);
+	width: clamp(30px, 7vw, 40px);
+	filter: invert(1);
 }
 
 .mail_link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.1rem;
 }
 
 .icons {
-    width: 30px;
-    filter: invert(1);
+	width: 30px;
+	filter: invert(1);
 }

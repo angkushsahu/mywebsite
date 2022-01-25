@@ -1,6 +1,6 @@
 .name::before {
-	animation: name_animation 2000ms steps(18) forwards;
-	animation-delay: 2000ms;
+	animation: name_animation 2s steps(18) forwards;
+	animation-delay: 2s;
 }
 
 @keyframes name_animation {
@@ -13,62 +13,19 @@
 	}
 }
 
-.my_picture {
-	animation: picture_animation 2s ease forwards;
-	animation-delay: 4000ms;
-}
-
-@keyframes picture_animation {
-	to {
-		transform: translateX(0) scale(1) rotateZ(360deg);
-		opacity: 1;
-	}
-}
-
-.show_off {
-	animation: show_off_animation 500ms ease forwards;
-	animation-delay: 6000ms;
-}
-
-@keyframes show_off_animation {
-	to {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-
-.prime_skills {
-	animation: prime_skills_animation 500ms ease forwards;
-	animation-delay: 6000ms;
-}
-
-@keyframes prime_skills_animation {
-	to {
-		opacity: 1;
-	}
-}
-
+.header,
+.my_picture,
+.show_off,
+.prime_skills,
+.open_for_work,
 .open_for_work,
 .intro_button {
-	animation: bring_up_animation 750ms ease forwards;
-	animation-delay: 6500ms;
+	animation: rest_of_introduction_section 1s ease forwards;
+	animation-delay: 1s;
 }
 
-@keyframes bring_up_animation {
+@keyframes rest_of_introduction_section {
 	to {
-		transform: translateY(0);
-		opacity: 1;
-	}
-}
-
-.header {
-	animation: header_animation 1000ms ease forwards;
-	animation-delay: 6900ms;
-}
-
-@keyframes header_animation {
-	to {
-		transform: translateY(0);
 		opacity: 1;
 	}
 }

@@ -1,49 +1,32 @@
 .problem_solving_and_designing_title {
-    font-size: clamp(1.2rem, 6vw, 1.6rem);
-    text-align: center;
-    padding-bottom: 20px;
+	font-size: clamp(1.2rem, 6vw, 1.6rem);
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .card_type_one_container {
-    display: flex;
-    justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .card_type_one {
-    width: clamp(280px, 45vw, 400px);
-    margin: 10px;
-    background-color: transparent;
-    padding: 30px;
-    border-radius: 10px;
+	width: clamp(280px, 45vw, 400px);
+	margin: 10px;
+	background-color: transparent;
+	padding: 30px;
+	border-radius: 10px;
 }
 
 .card_image {
-    width: clamp(200px, 15vw, 150px);
-    height: clamp(200px, 15vw, 150px);
-    object-fit: cover;
-    clip-path: circle(50% at 50% 50%);
-    display: block;
-    margin: auto;
+	width: clamp(200px, 15vw, 150px);
+	height: clamp(200px, 15vw, 150px);
+	object-fit: cover;
+	clip-path: circle(50% at 50% 50%);
+	display: block;
+	margin: auto;
 }
 
 .card_description {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.fade_up {
-    transform: translateY(-50px);
-    opacity: 0;
-    transition: transform 500ms ease-in, opacity 500ms ease-in;
-}
-
-.fade_down {
-    transform: translateY(50px);
-    opacity: 0;
-    transition: transform 500ms ease-in, opacity 500ms ease-in;
-}
-
-.toggle_fade {
-    transform: translateY(0);
-    opacity: 1;
+	text-align: center;
+	padding-top: 20px;
 }

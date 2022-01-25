@@ -1,42 +1,31 @@
 .education_and_skills {
-    padding: clamp(0px, 1vw, 40px);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: hidden;
+	padding: clamp(0px, 1vw, 40px);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	overflow: hidden;
 }
 
 .education_section {
-    width: clamp(290px, 45vw, 500px);
-    margin: 10px 0;
-    padding: 0 10px;
-    transform: translateX(-50px);
-    opacity: 0;
-    transition: transform 500ms ease-in, opacity 500ms ease-in;
+	width: clamp(290px, 45vw, 500px);
+	margin: 10px 0;
+	padding: 0 10px;
 }
 
 .education_and_skills_section_title {
-    font-size: clamp(1.2rem, 6vw, 1.6rem);
-    padding-bottom: 20px;
+	font-size: clamp(1.2rem, 6vw, 1.6rem);
+	padding-bottom: 20px;
 }
 
 .institute_section {
-    padding: 10px 0;
+	padding: 10px 0;
 }
 
 .institute_type_and_time {
-    color: #7a7a7a;
+	color: #7a7a7a;
 }
 
 .skills {
-    margin: 10px 0;
-    padding: 0 10px;
-    transform: translateX(50px);
-    opacity: 0;
-    transition: transform 500ms ease-in, opacity 500ms ease-in;
-}
-
-.toggle_opacity {
-    transform: translateX(0);
-    opacity: 1;
+	margin: 10px 0;
+	padding: 0 10px;
 }
