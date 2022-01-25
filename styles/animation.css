@@ -1,69 +1,74 @@
 .name::before {
-    animation: name_animation 2000ms steps(18) forwards;
-    animation-delay: 2000ms;
+	animation: name_animation 2000ms steps(18) forwards;
+	animation-delay: 2000ms;
 }
 
 @keyframes name_animation {
-    to { left: 100%; }
-    99.9% { border-left: 2px solid #ff4500; }
-    100% { border-left: none; }
+	99.9% {
+		border-left: 2px solid #ff4500;
+	}
+	100% {
+		border-left: none;
+		left: 100%;
+	}
 }
 
 .my_picture {
-    animation: picture_animation 2s ease forwards;
-    animation-delay: 4000ms;
+	animation: picture_animation 2s ease forwards;
+	animation-delay: 4000ms;
 }
 
 @keyframes picture_animation {
-    to {
-        transform: translateX(0) rotateZ(360deg);
-        opacity: 1;
-    }
+	to {
+		transform: translateX(0) scale(1) rotateZ(360deg);
+		opacity: 1;
+	}
 }
 
 .show_off {
-    animation: show_off_animation 500ms ease forwards;
-    animation-delay: 6000ms;
+	animation: show_off_animation 500ms ease forwards;
+	animation-delay: 6000ms;
 }
 
 @keyframes show_off_animation {
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
 }
-    
+
 .prime_skills {
-    animation: prime_skills_animation 500ms ease forwards;
-    animation-delay: 6000ms;
+	animation: prime_skills_animation 500ms ease forwards;
+	animation-delay: 6000ms;
 }
 
 @keyframes prime_skills_animation {
-    to {
-        opacity: 1;
-    }
+	to {
+		opacity: 1;
+	}
 }
 
-.open_for_work, .intro_button {
-    animation: bring_up_animation 750ms ease forwards;
-    animation-delay: 6500ms;
+.open_for_work,
+.intro_button {
+	animation: bring_up_animation 750ms ease forwards;
+	animation-delay: 6500ms;
 }
 
 @keyframes bring_up_animation {
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 .header {
-    animation: header_animation 1000ms ease forwards;
-    animation-delay: 6900ms;
+	animation: header_animation 1000ms ease forwards;
+	animation-delay: 6900ms;
 }
 
 @keyframes header_animation {
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
